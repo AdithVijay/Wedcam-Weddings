@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 *{
-  font-size: 22px;
+ 
+  font-family: "Gentium Book Plus", serif;;
 }
 .active {
   color: black;

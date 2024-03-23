@@ -16,7 +16,7 @@ function App() {
      <BrowserRouter>
         <Navbar/>
 
-          <div className=" relative top-[100px] h-[2000px]">
+          <div className=" relative top-[100px] h-[5000px]">
 
             <Routes>
               <Route path="/" element={<Home/>}/>
