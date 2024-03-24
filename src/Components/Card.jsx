@@ -9,11 +9,11 @@ const Card = ({description,images}) => {
                 <img className=' h-96 lg:h-[30rem] object-cover  min-w-[100%]' src={images} alt="" />
             </div>
             <div className=' flex flex-col items-center'>
-                <div>
+                <div className=" text-[#8E8E8E] text-2xl">
                     {description}
                 </div>
                 <div>
-                <NavLink className=" text-[#8E8E8E]" to="/menu">Menu</NavLink>
+                <NavLink className=" text-[#8E8E8E]" to="/menu">Explore Now</NavLink>
                 </div>
             </div>
         </div>

@@ -7,6 +7,7 @@ import card3 from "../assets/card3.jpg";
 import line from "../assets/line.webp";
 import Insta from "../Components/Insta";
 import Customersay from "../Components/Customersay";
+import Youtube from "../Components/Youtube";
 
 const Home = () => {
   return (
@@ -28,6 +29,9 @@ const Home = () => {
       </div>
       {/* comments */}
 
+        <Youtube/>
+
+
       <div className=" text-4xl text-[#8E8E8E] flex justify-center ">
         Our Services
       </div>
@@ -41,11 +45,11 @@ const Home = () => {
       {/* card section */}
       <div className="flex flex-col lg:flex-row items-center justify-center">
         <div className="flex flex-col md:flex-row ">
-          <Card description={"Hiii guiyssss"} images={card1} />
-          <Card description={"Hiii guiyssss"} images={card2} />
+          <Card description={"Pre wedding "} images={card1} />
+          <Card description={"Wedding "} images={card2} />
         </div>
         <div className=" flex ">
-          <Card description={"Hiii guiyssss"} images={card3} />
+          <Card description={"Post Wedding"} images={card3} />
         </div>
       </div>
       {/* card section */}
