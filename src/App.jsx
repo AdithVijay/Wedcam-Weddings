@@ -5,6 +5,7 @@ import About from "./Pages/About";
 import Menu from "./Pages/Menu";
 import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
      <BrowserRouter>
         <Navbar/>
 
-          <div className=" relative top-[100px] h-[5000px]">
+          <div className=" relative top-[100px] ">
 
             <Routes>
               <Route path="/" element={<Home/>}/>
@@ -25,6 +26,7 @@ function App() {
               <Route path="/contact" element={<Contact/>}/>
             </Routes>
           </div>
+           
         </BrowserRouter>
     </div>
     </>

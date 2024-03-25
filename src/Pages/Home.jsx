@@ -8,6 +8,7 @@ import line from "../assets/line.webp";
 import Insta from "../Components/Insta";
 import Customersay from "../Components/Customersay";
 import Youtube from "../Components/Youtube";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -75,7 +76,7 @@ const Home = () => {
         <Customersay/>
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
       </div>
-
+      <Footer/>
     </div>
   );
 };

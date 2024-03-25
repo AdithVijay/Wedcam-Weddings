@@ -1,12 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo2 from "../assets/logo2.png";
 
 const Navbar = () => {
   return (
     <div>
         <div className=' text-2xl bg-[#F8F4ED] flex justify-around shadow-2xl z-20 fixed h-[100px] w-full items-center '>
             <div>
-                <NavLink className=" text-[#8E8E8E]" to="/mmmmmm">Logo</NavLink>
+                <NavLink className=" text-[#8E8E8E]" to="/mmmmmm"><img className=' bg-black' src={""} alt="" /></NavLink>
             </div>
             
             <div  className='gap-12 md:flex  hidden'>
