@@ -13,16 +13,16 @@ const Navbar = () => {
             <div  className='gap-12 md:flex  hidden'>
             <hr className=' bg-[#8E8E8E] w-10 h-0.5 my-auto'/>
                 <div>
-                    <NavLink className=" text-[#8E8E8E]" activeclassname="active" to="/">Home</NavLink>
+                    <NavLink className=" text-[#8E8E8E]" activeclassname="active" to="/">HOME</NavLink>
                 </div>
                 <div>
-                    <NavLink className=" text-[#8E8E8E]" to="/menu">Menu</NavLink>
+                    <NavLink className=" text-[#8E8E8E]" to="/menu">GALLERY</NavLink>
                 </div>
                 <div>
-                    <NavLink className=" text-[#8E8E8E]" to="/about">About</NavLink>
+                    <NavLink className=" text-[#8E8E8E]" to="/about">ABOUT US</NavLink>
                 </div>
                 <div>
-                    <NavLink className=" text-[#8E8E8E]" to="/contact">Contact</NavLink>
+                    <NavLink className=" text-[#8E8E8E]" to="/contact">CONTACT US</NavLink>
                 </div>
                 <hr className='bg-[#8E8E8E]  w-10 h-0.5 my-auto'/>
             </div>

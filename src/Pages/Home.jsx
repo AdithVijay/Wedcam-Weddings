@@ -9,6 +9,7 @@ import Insta from "../Components/Insta";
 import Customersay from "../Components/Customersay";
 import Youtube from "../Components/Youtube";
 import Footer from "../Components/Footer";
+import Articles from "../Components/Articles";
 
 const Home = () => {
   return (
@@ -30,7 +31,7 @@ const Home = () => {
       </div>
       {/* comments */}
 
-        <Youtube/>
+      
 
 
       <div className=" text-4xl text-[#8E8E8E] flex justify-center ">
@@ -55,6 +56,8 @@ const Home = () => {
       </div>
       {/* card section */}
 
+    
+
       {/* insta page */}
       <div className=" flex flex-col items-center">
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
@@ -76,6 +79,19 @@ const Home = () => {
         <Customersay/>
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
       </div>
+
+          {/* Articles */}
+          <div className=" flex flex-col items-center">
+    
+        <div className="text-[#8E8E8E] text-6xl">Articles About us</div>
+        
+        <div className=" flex justify-center mb-12">
+          <img src={line} alt="" />
+        </div>
+        <Articles/>
+      </div>
+           
+        {/* Articles */}
       <Footer/>
     </div>
   );

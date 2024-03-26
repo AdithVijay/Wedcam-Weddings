@@ -8,7 +8,7 @@ const Contact = () => {
       <div className=" flex gap-20 justify-center  items-center md:flex-row flex-col md:pl-0 pl-2">
         
         <div className=" 2xl:w-[45%] md:w-[60%] relative  md:-top-14 w-[90%] text-center flex flex-col items-center">
-          <div className=" lg:w-[75%] lg:text-7xl text-5xl pb-3">We are creating fiction out of reality</div>
+          <div className=" lg:w-[100%] lg:text-7xl text-5xl pb-3">We are creating fiction out of reality</div>
           
           <div className=" text-xl">
             We capture your divine moments to carve an enthralling narrative to

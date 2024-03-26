@@ -28,7 +28,7 @@ const Slider = () => {
     }
   return (
     <div className=' w-full mb-14'>
-        <div className=' relative ring-neutral-900   w-[100%] lg:w-[100%] mx-auto  '>
+        <div className=' relative ring-neutral-900   w-[100%] lg:w-[100%] mx-auto    '>
           <img src={imgs[first].img} alt=""  className=' w-[100%]  mx-auto   object-cover   max-h-[600px] ' />
           
           <span className=' flex absolute md:text-2xl  z-10 top-[45%]     justify-around gap-[85%]     my-auto    w-[100%] text-white  '>

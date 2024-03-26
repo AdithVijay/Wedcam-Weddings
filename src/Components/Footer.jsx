@@ -7,7 +7,7 @@ import { FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className=' bg-[#F8F4ED] text-[#8E8E8E] ' >
+    <div className=' bg-[#F8F4ED] text-[#8E8E8E] relative top-24 ' >
       <div className=' flex justify-center md:pb-5 pt-10'>
         <div className='top flex justify-around flex-col md:flex-row md:gap-36 gap-5 items-center'>
           <div className='left flex gap-4'>
@@ -37,7 +37,7 @@ const Footer = () => {
       <hr className="bg-[#8E8E8E] w-[90%] flex mx-auto " />
       <div className='down flex md:flex-row flex-col justify-center items-center md:gap-10 gap-5 pt-5 pb-10'>
         <div className='left md:w-[30%] w-[90%]'>
-          <div className=' font-creamcheese text-4xl pb-3 '>Wed Cam weddings</div>
+          <div className=' font-creamcheese text-4xl pb-3 '>WedCam weddings</div>
           <div className=''>
             Experience the joy of savouring healthy, hygienic foods at Burger Lounge by Grapa Foods. Our excellent
             burgers, crafted with premium ingredients, promise an exceptional culinary experience. Immerse yourself in
