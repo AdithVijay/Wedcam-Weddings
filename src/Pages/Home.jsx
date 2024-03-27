@@ -10,6 +10,7 @@ import Customersay from "../Components/Customersay";
 import Youtube from "../Components/Youtube";
 import Footer from "../Components/Footer";
 import Articles from "../Components/Articles";
+import Newinsta from "../Components/Newinsta";
 
 const Home = () => {
   return (
@@ -30,9 +31,6 @@ const Home = () => {
         <hr className="  md:w-[80%] w-[90%]" />
       </div>
       {/* comments */}
-
-      
-
 
       <div className=" text-4xl text-[#8E8E8E] flex justify-center ">
         Our Services
@@ -56,43 +54,33 @@ const Home = () => {
       </div>
       {/* card section */}
 
-    
-
-      {/* insta page */}
+      {/* Articles */}
       <div className=" flex flex-col items-center">
-        <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
-        <div className="text-[#8E8E8E] text-4xl">Follow Our Instagram</div>
-        <div className="text-[#8E8E8E] text-xl mt-4">For Regular Updates</div>
+      <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
+        <div className="text-[#8E8E8E] text-4xl">Articles About us</div>
+
         <div className=" flex justify-center mb-12">
           <img src={line} alt="" />
         </div>
-        <Insta />
+        <Articles />
       </div>
-      {/* insta page */}
+      {/* Articles */}
+
 
       {/* Customer Says  */}
       <div className=" flex flex-col items-center ">
-      <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
-        <div className="text-[#8E8E8E] text-4xl">
-            TESTIMONIALS
-        </div>
-        <Customersay/>
+        <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
+        <div className="text-[#8E8E8E] text-4xl">TESTIMONIALS</div>
+        <Customersay />
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
       </div>
+         {/* Customer Says  */}
+        {/* New Insta */}
+          <Newinsta/>
+         {/* New Insta */}
 
-          {/* Articles */}
-          <div className=" flex flex-col items-center">
-    
-        <div className="text-[#8E8E8E] text-6xl">Articles About us</div>
-        
-        <div className=" flex justify-center mb-12">
-          <img src={line} alt="" />
-        </div>
-        <Articles/>
-      </div>
-           
-        {/* Articles */}
-      <Footer/>
+
+      <Footer />
     </div>
   );
 };
