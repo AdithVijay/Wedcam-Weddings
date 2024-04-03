@@ -8,8 +8,7 @@ import Insta from '../Components/Insta';
 const About = () => {
   return (
     <div>
-       <Abslider/>
-        <div className='relative  text-[#8E8E8E] p-1 '> 
+        <div className='relative  text-[#8E8E8E] p-1 pt-14  '> 
           <div className=' flex justify-center md:text-5xl text-3xl  text-center'>
               Capturing moments of unplanned love: The WedCam Weddings
             </div> 
@@ -17,7 +16,7 @@ const About = () => {
               <img src={line} alt="" />
             </div>
             <div className='flex lg:flex-row flex-col justify-center items-center md:gap-20 gap-10 pb-24'>
-              <div className='left lg:w-[55%] 2xl:w-[25%] w-[90%] flex items-center rounded-lg  overflow-hidden '>
+              <div className='left lg:w-[55%] 2xl:w-[30%] w-[90%] flex items-center rounded-lg  overflow-hidden '>
                   <img src={vishnu} alt="" />
               </div>
               <div className=' right lg:w-[35%] w-[90%] md:text-xl  text-pretty '>
@@ -26,7 +25,7 @@ const About = () => {
               </div>
             </div>
             <div className=" flex flex-col items-center">
-        <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
+        <hr className="  md:w-[80%] w-[90%]  mb-14 " />
         <div className="text-[#8E8E8E] text-4xl">Follow Our Instagram</div>
         <div className="text-[#8E8E8E] text-xl mt-4">For Regular Updates</div>
         <div className=" flex justify-center mb-12">

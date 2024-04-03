@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="bg-[#8E8E8E] w-[90%] flex mx-auto " />
-      <div className='down flex md:flex-row flex-col justify-center items-center md:gap-16 gap-10 pt-5 pb-10'>
+      <div className='down flex md:flex-row flex-col justify-center items-center md:gap-16 gap-10 pt-5 pb-10 pl-5 '>
         <div className='left md:w-[30%] w-[90%]'>
           <div className=' font-creamcheese  pb-3 md:text-left flex items-center justify-center  '><span>STORIES FROM</span> <span className=' text-4xl' >WEDCAM </span><span>WEDDING</span> </div>
           <div className=''>
