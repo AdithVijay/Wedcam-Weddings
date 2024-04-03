@@ -8,6 +8,7 @@ import act7 from "../assets/act7.jpeg";
 import act8 from "../assets/act8.jpeg";
 import act9 from "../assets/act9.jpeg";
 
+
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 const Slider = () => {
     const imgs=[

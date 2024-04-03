@@ -1,8 +1,14 @@
 import React from 'react'
 
+
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <div>
+      <div className=' flex  '>
+        
+       
+        </div>
+    </div>
   )
 }
 

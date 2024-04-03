@@ -39,7 +39,7 @@ const Home = () => {
         Premium Wedding Photography And videography
       </div>
       <div className=" flex justify-center mb-12">
-        <img src={line} alt="" />
+        
       </div>
 
       {/* card section */}
@@ -57,10 +57,10 @@ const Home = () => {
       {/* Articles */}
       <div className=" flex flex-col items-center">
       <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
-        <div className="text-[#8E8E8E] text-4xl">Articles About us</div>
+        <div className="text-[#8E8E8E] text-4xl">ARTICLES</div>
 
         <div className=" flex justify-center mb-12">
-          <img src={line} alt="" />
+          
         </div>
         <Articles />
       </div>
