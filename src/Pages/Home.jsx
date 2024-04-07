@@ -20,8 +20,8 @@ const Home = () => {
       {/* comments */}
       <div className=" flex flex-col justify-center items-center  mb-14">
         <hr className="  md:w-[80%] w-[90%]" />
-        <div className=" flex items-center justify-center md:h-36  text-[#8E8E8E] text-xl text-center">
-          <div className="  md:w-[70%] w-[90%] ">
+        <div className=" flex items-center justify-center md:h-36  text-[#8E8E8E] md:text-xl text-center">
+          <div className="  md:w-[70%] w-[90%]  ">
             "Our wedding photographer in kerala is not just capturing photos, He
             is capturing the unforgettable moments in life of amazing couples.
             Whether it's an arranged marriage or a love marriage, every pair has
@@ -32,10 +32,10 @@ const Home = () => {
       </div>
       {/* comments */}
 
-      <div className=" text-4xl text-[#8E8E8E] flex justify-center ">
+      <div className=" md:text-4xl text-2xl text-[#8E8E8E] flex justify-center ">
         Our Services
       </div>
-      <div className="text-[#8E8E8E] flex justify-center text-center mt-4 text-xl ">
+      <div className="text-[#8E8E8E] flex justify-center text-center mt-4  ">
         Premium Wedding Photography And videography
       </div>
       <div className=" flex justify-center mb-12">
@@ -57,7 +57,7 @@ const Home = () => {
       {/* Articles */}
       <div className=" flex flex-col items-center">
       <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
-        <div className="text-[#8E8E8E] text-4xl mb-14 ">ARTICLES</div>
+        <div className="text-[#8E8E8E] md:text-4xl text-2xl mb-14 ">ARTICLES</div>
 
         {/* <div className=" flex justify-center mb-12">
         <img src={line} alt="" />
@@ -70,7 +70,7 @@ const Home = () => {
       {/* Customer Says  */}
       <div className=" flex flex-col items-center ">
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
-        <div className="text-[#8E8E8E] text-4xl">TESTIMONIALS</div>
+        <div className="text-[#8E8E8E] md:text-4xl text-2xl">TESTIMONIALS</div>
         <div className=" flex justify-center ">
         <img src={line} alt="" />
       </div>
@@ -80,8 +80,8 @@ const Home = () => {
          {/* Customer Says  */}
         {/* New Insta */}
         <div className="flex flex-col justify-center items-center">
-          <div className="text-[#8E8E8E] text-4xl text-center">FOLLOW OUR INSTAGRAM</div>
-          <p className="text-[#8E8E8E] text-xl flex justify-center mt-4 ">For regular Updates</p>
+          <div className="text-[#8E8E8E] md:text-4xl text-2xl text-center">FOLLOW OUR INSTAGRAM</div>
+          <p className="text-[#8E8E8E] text-xl flex justify-center  ">For regular Updates</p>
           <div className=" flex justify-center mb-12">
         <img src={line} alt="" />
       </div>

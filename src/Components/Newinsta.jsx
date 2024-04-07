@@ -38,7 +38,7 @@ const Insta = () => {
     <img src={insta4} alt="" className='  row-span-2 rounded-md   overflow-hidden ' />
       </a>
   </div>
-  <div className='flex justify-center pt-10'>
+  <div className='flex justify-center pt-10 hover:scale-105 transition   duration-1000 '>
     <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA=="><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
     Follow Us
     </button></a>
