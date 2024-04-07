@@ -5,7 +5,6 @@ import card1 from "../assets/card1.jpg";
 import card2 from "../assets/card2.jpg";
 import card3 from "../assets/card3.jpg";
 import pic2 from "../assets/pic2.jpg";
-import pic3 from "../assets/pic3.jpg";
 import pic4 from "../assets/pic4.jpg";
 
 
@@ -29,7 +28,7 @@ function App() {
   };
   return (
     <div className='w-3/4 m-auto'>
-      <div className="mt-20">
+      <div className="mt-10">
       <Slider {...settings}>
         {data.map((d) => (
           <div key={d.name} className="bg-white h-[500px] text-black rounded-xl">

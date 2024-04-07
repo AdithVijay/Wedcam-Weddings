@@ -3,9 +3,7 @@ import React, { useState } from 'react'
 import act2 from "../assets/act2.jpeg";
 import act3 from "../assets/act3.jpeg";
 import act4 from "../assets/act4.jpeg";
-import act5 from "../assets/act5.png";
 import act7 from "../assets/act7.jpeg";
-import act8 from "../assets/act8.jpeg";
 import act9 from "../assets/act9.jpeg";
 
 

@@ -39,7 +39,7 @@ const Home = () => {
         Premium Wedding Photography And videography
       </div>
       <div className=" flex justify-center mb-12">
-        
+        <img src={line} alt="" />
       </div>
 
       {/* card section */}
@@ -57,11 +57,11 @@ const Home = () => {
       {/* Articles */}
       <div className=" flex flex-col items-center">
       <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
-        <div className="text-[#8E8E8E] text-4xl">ARTICLES</div>
+        <div className="text-[#8E8E8E] text-4xl mb-14 ">ARTICLES</div>
 
-        <div className=" flex justify-center mb-12">
-          
-        </div>
+        {/* <div className=" flex justify-center mb-12">
+        <img src={line} alt="" />
+      </div> */}
         <Articles />
       </div>
       {/* Articles */}
@@ -71,12 +71,22 @@ const Home = () => {
       <div className=" flex flex-col items-center ">
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
         <div className="text-[#8E8E8E] text-4xl">TESTIMONIALS</div>
+        <div className=" flex justify-center ">
+        <img src={line} alt="" />
+      </div>
         <Customersay />
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
       </div>
          {/* Customer Says  */}
         {/* New Insta */}
+        <div className="flex flex-col justify-center items-center">
+          <div className="text-[#8E8E8E] text-4xl text-center">FOLLOW OUR INSTAGRAM</div>
+          <p className="text-[#8E8E8E] text-xl flex justify-center mt-4 ">For regular Updates</p>
+          <div className=" flex justify-center mb-12">
+        <img src={line} alt="" />
+      </div>
           <Newinsta/>
+        </div>
          {/* New Insta */}
 
 

@@ -3,7 +3,7 @@ import Footer from "../Components/Footer";
 import line from "../assets/line.webp";
 const Contact = () => {
   return (
-    <div className="  text-[#8E8E8E] relative md:top-20 top-5  flex justify-center items-center flex-col ">
+    <div className="  text-[#8E8E8E] relative md:top-20 top-14  flex justify-center items-center flex-col ">
    
       <div className=" flex gap-20 justify-center  items-center md:flex-row flex-col md:pl-0 pl-2">
         
@@ -27,7 +27,7 @@ const Contact = () => {
           <button class="bg-black text-white  w-[100px] p-1 rounded ">SUBMIT</button>
         </div>
       </div>
-      <div className=" top-20 relative">
+      <div className="  relative">
         <Footer/>
         </div>
     </div>
