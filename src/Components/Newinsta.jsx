@@ -18,7 +18,7 @@ const Insta = () => {
   
   return (
     <div className='md:w-[90%] lg:w-[75%] 2xl:w-[60%] w-[115%] '>
-    <div  className=' grid md:grid-cols-3 grid-cols-1 grid-flow-row-dense md:gap-4 gap-1 mx-10    '>
+    <div  className=' grid md:grid-cols-3  grid-flow-row-dense md:gap-4 gap-1 mx-10    '>
       <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
     <img src={insta1} alt="" className='hover:scale-105  transition  duration-1000    row-span-2 rounded-md  overflow-hidden ' />
       </a>
