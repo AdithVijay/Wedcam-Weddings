@@ -1,10 +1,9 @@
 import React from 'react'
 import articlelogo1 from "../assets/articlelogo1.png";
-
 import articlelogo3 from "../assets/articlelogo3.png";
-
 import articlelogo4 from "../assets/articlelogo4.png";
 import articlelogo5 from "../assets/articlelogo5.png";
+import articlelogo6 from "../assets/articlelogo6.png";
 
 const Articles = () => {
   return (
@@ -17,9 +16,11 @@ const Articles = () => {
           <div className='flex lg:flex-row flex-col  gap-10   '>
             <img className='  md:w-[290px] md:h-[40px] w-[220px] h-[25px]' src={articlelogo3} alt="" />
             <img className=' md:w-[150px] md:h-[20px] w-[110px] md:mb-5 mt-0 ' src={articlelogo4} alt="" />
-            
           </div>
         </div>
+        {/* <div className=' flex justify-center mt-5 '>
+          <img className=' md:w-[150px] md:h-[40px] w-[110px] md:mb-5 mt-0 ' src={articlelogo6} alt="" />
+          </div> */}
     </div>
   )
 }

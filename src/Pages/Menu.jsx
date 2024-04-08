@@ -1,5 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { InstagramEmbed } from 'react-social-media-embed';
+import insta1 from "../assets/insta1.jpg";
+import insta2 from "../assets/insta2.jpg";
+import insta3 from "../assets/insta3.jpg";
+import insta4 from "../assets/insta4.jpg";
+import insta5 from "../assets/insta5.jpg";
+import insta6 from "../assets/insta6.jpg";
+
+
+
+
 const Insta = () => {
   const [isloaded, setisloaded] = useState(false)
   useEffect(() => {
@@ -7,18 +17,26 @@ const Insta = () => {
   }, [])
   
   return (
-    <div className='md:w-[90%] flex mx-auto pt-14'>
-       <div  className=' grid grid-cols-3 grid-flow-row-dense gap-9 mx-10 ' >
-   {/* {isloaded && (<InstagramEmbed url="https://www.instagram.com/_viishnu_santhosh?igsh=NzIycHd3YW52NnVk" width={650} />)} */}
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt="" className='' />
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt="" className='' />
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt="" className='' />
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt=" " className='' />
-   <img src="https://images.unsplash.com/photo-1531966662811-c6501e46eda6?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='  row-span-2  ' />
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt="" className='' />
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt=" " className='' />
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt="" className='' />
-   <img src="https://www.thoughtco.com/thmb/vrWPIa5gM20NUbQdFa84M7i5wHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-697389167-5a737ae0ba617700372d5569.jpg" alt=" " className='' />
+    <div className='md:w-[90%] lg:w-[75%] 2xl:w-[60%] w-[115%] mx-auto '>
+    <div  className=' grid md:grid-cols-3 grid-cols-1 grid-flow-row-dense md:gap-4 gap-7 mx-10    '>
+      <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
+    <img src={insta1} alt="" className='hover:scale-105  transition  duration-1000    row-span-2 rounded-md  overflow-hidden ' />
+      </a>
+      <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
+    <img src={insta1} alt="" className='  row-span-2 rounded-md  overflow-hidden ' />
+      </a>
+      <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
+    <img src={insta4} alt="" className='  row-span-2 rounded-md   overflow-hidden ' />
+      </a>
+      <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
+    <img src={insta4} alt="" className='  row-span-2 rounded-md   overflow-hidden ' />
+      </a>
+      <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
+    <img src={insta5} alt="" className='  row-span-2 rounded-md   overflow-hidden ' />
+      </a>
+      <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
+    <img src={insta4} alt="" className='  row-span-2 rounded-md   overflow-hidden ' />
+      </a>
   </div>
     </div>
   )

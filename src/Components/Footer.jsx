@@ -37,12 +37,9 @@ const Footer = () => {
       <hr className="bg-[#8E8E8E] w-[90%] flex mx-auto " />
       <div className='down flex md:flex-row flex-col justify-center items-center md:gap-16 gap-10 pt-5 pb-10 pl-5 '>
         <div className='left md:w-[30%] w-[90%]'>
-          <div className=' font-creamcheese  pb-3 md:text-left flex items-center justify-center  '><span>STORIES FROM</span> <span className=' text-4xl' >WEDCAM </span><span>WEDDING</span> </div>
+          <div className='  pb-3 md:text-left flex items-center justify-center text-2xl text-center '>STORIES FROM WEDCAM WEDDING</div>
           <div className=''>
-            Experience the joy of savouring healthy, hygienic foods at Burger Lounge by Grapa Foods. Our excellent
-            burgers, crafted with premium ingredients, promise an exceptional culinary experience. Immerse yourself in
-            quality, sustainability, and the pure delight of every bite. Taste the difference and embrace the happiness
-            of dining at Grapa Burger Lounge.
+          Beyond posed perfection, we seek the raw, unscripted moments—the laughter that spills like champagne, the tears that write their own ballads. Our lenses are storytellers, narrating the epic of two souls entwined against a canvas of sunsets and moonrise.
           </div>
         </div>
 
