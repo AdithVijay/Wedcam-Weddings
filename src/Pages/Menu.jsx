@@ -7,7 +7,7 @@ import insta20 from "../assets/gal20.jpg";
 import insta21 from "../assets/gal21.jpg";
 import insta17 from "../assets/gal17.jpg";
 import insta6 from "../assets/gal7.jpg";
-import insta4 from "../assets/gal3.jpg";
+import insta4 from "../assets/gal15.jpg";
 import center_03 from "../assets/right_03.jpg";
 import insta5 from "../assets/art2.jpg";
 import insta14 from "../assets/gal14.jpg";
