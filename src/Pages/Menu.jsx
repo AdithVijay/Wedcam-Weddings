@@ -22,22 +22,22 @@ const Insta = () => {
     <div className='md:w-[90%] lg:w-[75%] 2xl:w-[60%] w-[115%] pt-20 mx-auto'>
       <div className='grid md:grid-cols-3 grid-cols-1 grid-flow-row-dense md:gap-10 gap-7'>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={insta1} alt="First Instagram Image" className='hover:scale-105 transition duration-1000 row-span-2 rounded-md overflow-hidden' />
+          <img src={insta1} alt="Photography webcam weddings Vishnu Santosh " className='hover:scale-105 transition duration-1000 row-span-2 rounded-md overflow-hidden' />
         </a>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={insta1} alt="Second Instagram Image" className='row-span-2 rounded-md overflow-hidden' />
+          <img src={insta1} alt="Photography  webcam weddings Vishnu Santosh" className='row-span-2 rounded-md overflow-hidden' />
         </a>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={insta4} alt="Third Instagram Image" className='row-span-2 rounded-md overflow-hidden' />
+          <img src={insta4} alt="Photography  webcam weddings Vishnu Santosh " className='row-span-2 rounded-md overflow-hidden' />
         </a>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={insta4} alt="Fourth Instagram Image" className='row-span-2 rounded-md overflow-hidden' />
+          <img src={insta4} alt="Photography  webcam weddings Vishnu Santosh" className='row-span-2 rounded-md overflow-hidden' />
         </a>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={insta5} alt="Fifth Instagram Image" className='row-span-2 rounded-md overflow-hidden' />
+          <img src={insta5} alt="Photography  webcam weddings Vishnu Santosh" className='row-span-2 rounded-md overflow-hidden' />
         </a>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={insta4} alt="Sixth Instagram Image" className='row-span-2 rounded-md overflow-hidden' />
+          <img src={insta4} alt="Photography  webcam weddings Vishnu Santosh" className='row-span-2 rounded-md overflow-hidden' />
         </a>
       </div>
     </div>

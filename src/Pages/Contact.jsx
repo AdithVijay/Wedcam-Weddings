@@ -6,12 +6,13 @@ const Contact = () => {
   return (
     <div>
          <Helmet>
-         <title>Thiruvalla's Best Wedding Studio WedCam Weddings </title>
+         <title>Contact-Thiruvalla's Best Wedding Studio WedCam Weddings </title>
         <meta
           name="description"
 
           content="Find the best wedding photographers & videographers in Thiruvalla. Capture your dream wedding with stunning photos & cinematic videos."
         />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       <div className="  text-[#8E8E8E] relative md:top-20 top-14  flex justify-center items-center flex-col ">
         <div className=" flex gap-20 justify-center  items-center md:flex-row flex-col md:pl-0 pl-2">

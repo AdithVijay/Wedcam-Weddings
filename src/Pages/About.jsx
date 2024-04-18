@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div>
        <Helmet>
-       <title>Thiruvalla's Best Wedding Studio WedCam Weddings </title>
+       <title>About-Thiruvalla's Best Wedding Studio WedCam Weddings </title>
         <meta
           name="description"
 

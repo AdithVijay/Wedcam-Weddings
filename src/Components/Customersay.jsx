@@ -1,14 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import card1 from "../assets/card1.jpg";
-import card2 from "../assets/card2.jpg";
-import card3 from "../assets/card3.jpg";
-import pic2 from "../assets/pic2.jpg";
-import pic4 from "../assets/pic4.jpg";
-import review1 from "../assets/review1.png";
-
-
 
 function App() {
   const settings = {
@@ -79,7 +71,26 @@ const data = [
     img: "G",
     review: `Wedcam Weddings goes above and beyond just photography. They also offer videography services, which we opted for as well. The wedding video is beautifully produced and captures all the highlights of the day. It's a perfect complement to the photos.`
   },
-  
+  {
+    name: `Catharin Clement`,
+    img: "C",
+    review: `Vishnu at Wedcam Weddings is a true professional. He was always responsive to our emails and calls, and he took the time to understand our vision for our wedding day. The final photos exceeded our expectations, and we couldn't be happier with the results.`
+  },
+  {
+    name: `Bizflok Media`,
+    img: "B",
+    review: `I was a relative of the bride and the wedding took place in Thiruvalla.I looked for wedding photography franchises near Thiruvalla and stumbled upon Vishnu and his team. They did their best to deliver the photos and they were excellent. Very happy with the photos and will recommend to other family and friends.`
+  },
+  {
+    name: `Mubashir Pn`,
+    img: "M",
+    review: `We chose Vishnu and his team for our engagement and wedding and were very pleased with the photos.They did a good job on the photos and the album.Extremely happy with the outcome.`
+  },
+  {
+    name: `Gaya3 Sankar`,
+    img: "G",
+    review: `We chose Wedcam and not for one moment we thought it was a bad choice.They delivered excellent photos and showed us hospitality.They respected our choices for the photos and took them the way we wanted.Thank you to Vishnu and his team for a memorable experience`
+  },
 ];
 
 export default App;

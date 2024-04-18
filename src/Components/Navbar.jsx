@@ -19,6 +19,9 @@ const Navbar = () => {
                     <NavLink className=" text-[#8E8E8E]" to="/menu">GALLERY</NavLink>
                 </div>
                 <div>
+                    <NavLink className=" text-[#8E8E8E]" to="/albums">FILMS</NavLink>
+                </div>
+                <div>
                     <NavLink className=" text-[#8E8E8E]" to="/about">ABOUT US</NavLink>
                 </div>
                 <div>

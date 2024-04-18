@@ -18,7 +18,10 @@ const Footer = () => {
               About
             </NavLink>
             <NavLink to='/menu' className='font-Cheesebase text-xl'>
-              Menu
+              Gallery
+            </NavLink>
+            <NavLink to='/albums' className='font-Cheesebase text-xl'>
+              Albums
             </NavLink>
             <NavLink to='/contact' className='font-Cheesebase text-xl'>
               Contact us
@@ -51,9 +54,9 @@ const Footer = () => {
           <div className=' text-3xl pb-4'>Contact Adress</div>
           <div>Mavoor Rd, Parayancheri, Kottooli, Kozhikode, Kerala 673016</div>
           <div className=' pt-3'>call us</div>
-          <div>9447271120</div>
+          <div>7907803380</div>
           <div className=' pt-3'>email</div>
-          <div className=' mb-10'>adithvijay121@gamil</div>
+          <div className=' mb-10'>infowedcamweddings@gmail.com</div>
         </div>
       </div>
     </div>

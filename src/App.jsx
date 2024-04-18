@@ -6,6 +6,7 @@ import Menu from "./Pages/Menu";
 import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Albums from "./Pages/Albums";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
               <Route path="/about" element={<About/>}/>
               <Route path="/menu" element={<Menu/>}/>
               <Route path="/contact" element={<Contact/>}/>
+              <Route path="/albums" element={<Albums/>}/>
             </Routes>
           </div>
            
