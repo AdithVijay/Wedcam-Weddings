@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { InstagramEmbed } from 'react-social-media-embed';
 import insta1 from "../assets/center_01.jpg";
 import insta3 from "../assets/gal12.jpg";
-import insta2 from "../assets/gal3.jpg";
+import insta22 from "../assets/gal3.jpg";
 import insta20 from "../assets/gal20.jpg";
 import insta21 from "../assets/gal21.jpg";
 import insta17 from "../assets/gal17.jpg";
@@ -47,7 +47,7 @@ const Insta = () => {
           <img src={insta5} alt="Photography  webcam weddings Vishnu Santosh" className='row-span-2    rounded-md overflow-hidden' />
         </a>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={insta2} alt="Photography  webcam weddings Vishnu Santosh" className='  row-span-2  rounded-md overflow-hidden' />
+          <img src={insta22} alt="Photography  webcam weddings Vishnu Santosh" className='  row-span-2  rounded-md overflow-hidden' />
         </a>
       
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
