@@ -20,16 +20,17 @@ const Albums = () => {
 
 
       <div className='w-full flex md:flex-row flex-col justify-center p-10 w-full gap-12' >
-           <iframe
-            className=' aspect-video md:w-[60%] '
-            src="https://www.youtube.com/embed/_YGw0SHWjXU?si=DESt0xyyIw7oJEmj"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen={true} 
-            style={{ borderRadius: '10px' }} 
-            >
-            </iframe>
+        
+               <iframe
+                className=' aspect-video md:w-[60%] '
+                src="https://www.youtube.com/embed/_YGw0SHWjXU?si=DESt0xyyIw7oJEmj"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen={true}
+                style={{ borderRadius: '10px' }}
+                >
+                </iframe>
            
                  <iframe
             className=' aspect-video md:w-[60%] '
