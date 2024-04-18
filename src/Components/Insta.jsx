@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { InstagramEmbed } from 'react-social-media-embed';
-import insta1 from "../assets/insta1.jpg";
+import insta1 from "../assets/center_01.jpg";
 import insta2 from "../assets/insta2.jpg";
 import insta3 from "../assets/insta3.jpg";
 import insta4 from "../assets/insta4.jpg";
