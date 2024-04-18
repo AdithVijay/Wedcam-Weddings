@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 import vishnu from "../assets/vishnu.jpeg";
 import line from "../assets/line.webp";
 import Footer from '../Components/Footer';
@@ -8,6 +9,14 @@ import Insta from '../Components/Insta';
 const About = () => {
   return (
     <div>
+       <Helmet>
+       <title>Thiruvalla's Best Wedding Studio WedCam Weddings </title>
+        <meta
+          name="description"
+
+          content="Find the best wedding photographers & videographers in Thiruvalla. Capture your dream wedding with stunning photos & cinematic videos."
+        />
+      </Helmet>
         <div className='relative  text-[#8E8E8E] p-1 pt-14  '> 
           <div className=' flex justify-center md:text-5xl text-3xl  text-center'>
               Capturing moments of unplanned love: The WedCam Weddings

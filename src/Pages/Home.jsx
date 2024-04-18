@@ -1,13 +1,12 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import Slider from "../Components/Slider";
 import Card from "../Components/Card";
 import card1 from "../assets/card1.jpg";
 import card2 from "../assets/card2.jpg";
 import card3 from "../assets/card3.jpg";
 import line from "../assets/line.webp";
-import Insta from "../Components/Insta";
 import Customersay from "../Components/Customersay";
-import Youtube from "../Components/Youtube";
 import Footer from "../Components/Footer";
 import Articles from "../Components/Articles";
 import Newinsta from "../Components/Newinsta";
@@ -15,6 +14,15 @@ import Newinsta from "../Components/Newinsta";
 const Home = () => {
   return (
     <div>
+      <Helmet>
+      <title>Thiruvalla's Best Wedding Studio WedCam Weddings </title>
+        <meta
+          name="description"
+
+          content="Find the best wedding photographers & videographers in Thiruvalla. Capture your dream wedding with stunning photos & cinematic videos."
+        />
+      </Helmet>
+
       <Slider />
 
       {/* comments */}
@@ -22,7 +30,7 @@ const Home = () => {
         <hr className="  md:w-[80%] w-[90%]" />
         <div className=" flex items-center justify-center md:h-36  text-[#8E8E8E] md:text-xl text-center">
           <div className="  md:w-[70%] w-[90%]  ">
-            "Our wedding photographer in kerala is not just capturing photos, He
+            "Our wedding photographers in kerala is not just capturing photos, He
             is capturing the unforgettable moments in life of amazing couples.
             Whether it's an arranged marriage or a love marriage, every pair has
             a special story to share. "
@@ -56,39 +64,34 @@ const Home = () => {
 
       {/* Articles */}
       <div className=" flex flex-col items-center">
-      <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
+        <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
         <div className="text-[#8E8E8E] md:text-4xl text-2xl mb-14 ">ARTICLES</div>
-
-        {/* <div className=" flex justify-center mb-12">
-        <img src={line} alt="" />
-      </div> */}
         <Articles />
       </div>
       {/* Articles */}
-
 
       {/* Customer Says  */}
       <div className=" flex flex-col items-center ">
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
         <div className="text-[#8E8E8E] md:text-4xl text-2xl">TESTIMONIALS</div>
         <div className=" flex justify-center ">
-        <img src={line} alt="" />
-      </div>
+          <img src={line} alt="" />
+        </div>
         <Customersay />
         <hr className="  md:w-[80%] w-[90%]  mb-14 mt-14" />
       </div>
-         {/* Customer Says  */}
-        {/* New Insta */}
-        <div className="flex flex-col justify-center items-center">
-          <div className="text-[#8E8E8E] md:text-4xl text-2xl text-center">FOLLOW OUR INSTAGRAM</div>
-          <p className="text-[#8E8E8E] text-xl flex justify-center  ">For regular Updates</p>
-          <div className=" flex justify-center mb-12">
-        <img src={line} alt="" />
-      </div>
-          <Newinsta/>
-        </div>
-         {/* New Insta */}
+      {/* Customer Says  */}
 
+      {/* New Insta */}
+      <div className="flex flex-col justify-center items-center">
+        <div className="text-[#8E8E8E] md:text-4xl text-2xl text-center">FOLLOW OUR INSTAGRAM</div>
+        <p className="text-[#8E8E8E] text-xl flex justify-center  ">For regular Updates</p>
+        <div className=" flex justify-center mb-12">
+          <img src={line} alt="" />
+        </div>
+        <Newinsta />
+      </div>
+      {/* New Insta */}
 
       <Footer />
     </div>
