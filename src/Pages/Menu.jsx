@@ -7,10 +7,10 @@ import insta20 from "../assets/gal20.jpg";
 import insta21 from "../assets/gal21.jpg";
 import insta17 from "../assets/gal17.jpg";
 import insta6 from "../assets/gal7.jpg";
-import insta4 from "../assets/gal15.jpg";
+import insta4 from "../assets/37.jpg";
 import center_03 from "../assets/right_03.jpg";
 // import insta5 from "../assets/art2.jpg";
-import insta5 from "../assets/gal15.jpg";
+import insta5 from "../assets/0005-2.jpg";
 import insta14 from "../assets/gal14.jpg";
 import insta15 from "../assets/gal15.jpg";
 import insta19 from "../assets/gal19.jpg";
@@ -31,9 +31,9 @@ const Insta = () => {
   return (
     <div>
     <div className='md:w-[90%] lg:w-[75%] 2xl:w-[60%] w-[115%] pt-20 mx-auto'>
-      <div className='grid md:grid-cols-3 grid-cols-1 grid-flow-row-dense md:gap-10 gap-7'>
+      <div className='grid md:grid-cols-3 grid-cols-1 grid-flow-row-dense md:gap-10 md:p-0 px-10  gap-7'>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
-          <img src={gal23} alt="Photography webcam weddings Vishnu Santosh " className='hover:scale-105 transition duration-1000 row-span-2 rounded-md overflow-hidden' />
+          <img src={gal23} alt="Photography webcam weddings Vishnu Santosh " className=' duration-1000 row-span-2 rounded-md overflow-hidden' />
         </a>
         <a href="https://www.instagram.com/wedcam_wedding?igsh=MXduNGMxZGptYmJmdA==">
           <img src={ center_03} alt="Photography  webcam weddings Vishnu Santosh" className='row-span-2  h-full rounded-md overflow-hidden' />
